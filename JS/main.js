@@ -1,24 +1,15 @@
-//If statements
+//Switch statements
 
-let testScore = 65;
-let grade;
-let collegeStudent = false;
+alert
 
-if (testScore>=90) {
-    grade = `A`
-}else if (testScore>=80){
-    grade =`B`
-}else if (testScore>=70){
-    grade =`C`
-}else if (testScore>=60){
-    grade =`D`
+switch ("2") {
+    case 1:
+        console.log(1);
+        break;
+    case 2:
+        console.log(2);
+        break;
+
+    default:
+        console.log("No Match");
 }
- else{
-    if (collegeStudent) {
-        grade =`RA`
-    }else{
-        grade = `F`
-    }
-    grade = `F`
- }   
-console.log(grade);
