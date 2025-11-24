@@ -1,15 +1,8 @@
-//Switch statements
-
-alert
-
-switch ("2") {
-    case 1:
-        console.log(1);
-        break;
-    case 2:
-        console.log(2);
-        break;
-
-    default:
-        console.log("No Match");
+function greetUser(firstName, lastName){
+    // Set of statements
+    let msg = "hello " + firstName + " " + lastName + "I am learing JavaScript!";
+    console.log(msg)
 }
+
+greetUser("Pravinth")
+//greetUser("Crazy", "boy ")
