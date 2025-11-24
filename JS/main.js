@@ -1,8 +1,10 @@
-function greetUser(firstName, lastName){
-    // Set of statements
-    let msg = "hello " + firstName + " " + lastName + "I am learing JavaScript!";
-    console.log(msg)
-}
+let number1 = 5;
+let number2 = 20;
 
-greetUser("Pravinth")
-//greetUser("Crazy", "boy ")
+console.log(number1 + number2)
+console.log(number1 - number2)
+console.log(number1 * number2)
+console.log(number1 / number2)
+console.log(number1 % number2)
+console.log(number1 % number2)
+console.log(number1 ** number2)
