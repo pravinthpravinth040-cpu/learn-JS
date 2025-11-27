@@ -1,3 +1,4 @@
-console.log(1 === 1);
+let highIncome = true;
+let CIBILScore = true;
 
-console.log("1" === 1);
+console.log(highIncome && CIBILScore);
