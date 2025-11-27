@@ -22,3 +22,7 @@ main{
 h1{
     font-size: 250%;
 }
+p{
+    font-size: 120%;
+    margin-top: 10px;
+}
