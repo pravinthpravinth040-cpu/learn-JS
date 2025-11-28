@@ -1,11 +1,9 @@
-const readPermission = 4;
-const writePermission = 2;
-const executePermission = 1;
+//let x = 2 + 5 * 10;
 
-let myPermission = 0;
+//console.log(x); // Output: 52
 
-myPermission = myPermission | readPermission | writePermission;
+// Explanation: Multiplication has higher precedence than addition, so 5 * 10 is evaluated first, resulting in 50. Then, 2 + 50 is evaluated, resulting in 52. 
 
-let message = (myPermission & readPermission) ? 'yes' : 'no';
+let x = (2 + 5 )* 10;
 
-console.log(message);
+console.log(x);
