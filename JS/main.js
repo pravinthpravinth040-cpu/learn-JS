@@ -1,4 +1,11 @@
-let highIncome = true;
-let CIBILScore = true;
+const readPermission = 4;
+const writePermission = 2;
+const executePermission = 1;
 
-console.log(highIncome && CIBILScore);
+let myPermission = 0;
+
+myPermission = myPermission | readPermission | writePermission;
+
+let message = (myPermission & readPermission) ? 'yes' : 'no';
+
+console.log(message);
