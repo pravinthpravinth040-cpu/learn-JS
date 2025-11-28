@@ -1,20 +1,16 @@
 // Switch case 
-let grade = "S";
+let mark = 95;
 
-switch (grade) {
-    case "S":
+switch (true) {
+        case mark > 90:
         console.log("Super Grade");
         break;
-    case "A":
-    case "B":
-        console.log("Excellent Grade");
+    case mark > 50:
+        console.log("Passed");
         break;
-    case "U":
-        console.log("Just Passed");
-        break;
-    case "U":
-        console.log("Failed Grade"); 
+    case mark < 50:
+        console.log("Failed!");
         break;
     default:
-        console.log("Unknown Grade"); 
+        console.log("Unknown Mark");
 }
