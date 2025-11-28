@@ -1,9 +1,23 @@
-//let x = 2 + 5 * 10;
+// let isRaing = false;
+// let isCloudy = false;
 
-//console.log(x); // Output: 52
+// if (isRaing || isCloudy) {
+//     console.log("Don't forget to take umbrella!");
+    
+// } else {
+//     console.log("Sky is normal! Enjoy the weather!");
+// }
 
-// Explanation: Multiplication has higher precedence than addition, so 5 * 10 is evaluated first, resulting in 50. Then, 2 + 50 is evaluated, resulting in 52. 
+// If hour is between 12 am to 1pm -> Good Morning
 
-let x = (2 + 5 )* 10;
+let hrs = new Date().getHours();
 
-console.log(x);
+if (hrs >= 0 && hrs < 13) {
+    console.log("Goog Moring");
+}
+else if (hrs >= 13 && hrs < 17) {
+    console.log("Good Afternoon");
+}
+else {
+    console.log("Good Evening");
+}
