@@ -1,16 +1,13 @@
-// Switch case 
-let mark = 100;
+// for(initialExpression; condition; step){
+//     console.log("Number #1");
+    
+// }
 
-switch (true) {
-        case mark > 90:
-        console.log("Super Grade");
-        break;
-    case mark > 50:
-        console.log("Passed");
-        break;
-    case mark < 50:
-        console.log("Failed!");
-        break;
-    default:
-        console.log("Unknown Mark");
+for( let i = 10; i >= 1; i--){
+
+    if(i % 2 == 0 ){
+
+    console.log("Even Number #" + i);
+    }
+    
 }
