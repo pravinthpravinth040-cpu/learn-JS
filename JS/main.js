@@ -1,10 +1,18 @@
-let i = 20;
+// do while loop
 
-while( i >= 1 ){
-
-    if(i % 2 !== 0 ){
-
-    console.log("Odd Number #" + i);
+let i = 0;
+while (i <= 10){
+    if (i % 2 !== 0){
+        console.log("Odd Number While #" + i);
+        
     }
-    i-- ;
+    i++;
 }
+
+do{
+     if (i % 2 !== 0){
+        console.log("Odd Number Do-While #" + i);
+        
+    }
+    i++; 
+}while (i <= 10);
