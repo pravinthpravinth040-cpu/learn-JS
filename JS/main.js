@@ -1,18 +1,18 @@
-// do while loop
+// for-in loop 
 
-let i = 0;
-while (i <= 10){
-    if (i % 2 !== 0){
-        console.log("Odd Number While #" + i);
-        
-    }
-    i++;
+const person = {
+    Name: "pravinth",
+    Age: 18,
+};
+
+for(let key in person){
+    console.log(key + ": " + person[key]);
 }
 
-do{
-     if (i % 2 !== 0){
-        console.log("Odd Number Do-While #" + i);
-        
-    }
-    i++; 
-}while (i <= 10);
+
+let colours = ["red", "green", "blue"];
+
+for(let key in colours){
+    console.log(colours[key]);
+    
+}
