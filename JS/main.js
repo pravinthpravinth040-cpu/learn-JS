@@ -1,5 +1,5 @@
 // Switch case 
-let mark = 95;
+let mark = 100;
 
 switch (true) {
         case mark > 90:
